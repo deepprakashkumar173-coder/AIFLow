@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>AIFlow</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="app">
+  <h1>🚀 AIFlow</h1>
+
+  <input type="text" id="idea" placeholder="Enter your idea..." />
+  <button onclick="generate()">Generate</button>
+
+  <div id="output"></div>
+</div>
+
+<!-- JS -->
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

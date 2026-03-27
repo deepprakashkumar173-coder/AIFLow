@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  text-align: center;
+}
+
+.app {
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  background: #22c55e;
+  border: none;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
